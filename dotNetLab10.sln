@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1", "Lesson1\Lesson1.csproj", "{49194172-CD71-4777-B5A5-D30849C469CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetLab", "NetLab\NetLab.csproj", "{598BF40B-F65B-48F9-B08B-5F29A03B6BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetLab.TaskLibrary", "NetLab.TaskLibrary\NetLab.TaskLibrary.csproj", "{49022283-2A46-4316-B770-504B14354A8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{49194172-CD71-4777-B5A5-D30849C469CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49194172-CD71-4777-B5A5-D30849C469CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49194172-CD71-4777-B5A5-D30849C469CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49194172-CD71-4777-B5A5-D30849C469CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598BF40B-F65B-48F9-B08B-5F29A03B6BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598BF40B-F65B-48F9-B08B-5F29A03B6BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598BF40B-F65B-48F9-B08B-5F29A03B6BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598BF40B-F65B-48F9-B08B-5F29A03B6BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49022283-2A46-4316-B770-504B14354A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49022283-2A46-4316-B770-504B14354A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49022283-2A46-4316-B770-504B14354A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49022283-2A46-4316-B770-504B14354A8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
