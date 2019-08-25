@@ -28,6 +28,18 @@ namespace NetLab.TaskLibrary
             Lesson2.Add(4, new Lesson2.Task4());            
             Lessons.Add(2, Lesson2);
 
+            var Lesson3 = new Dictionary<int, IRunnable>();
+            Lesson3.Add(1, new Lessons.Lesson3.Task1());
+            Lesson3.Add(2, new Lessons.Lesson3.Task2());
+            Lesson3.Add(3, new Lessons.Lesson3.Task3());            
+            Lessons.Add(3, Lesson3);
+
+            var Lesson4 = new Dictionary<int, IRunnable>();
+            Lesson4.Add(1, new Lessons.Lesson3LINQ.Task1());
+            Lesson4.Add(2, new Lessons.Lesson3LINQ.Task2());
+            Lesson4.Add(3, new Lessons.Lesson3LINQ.Task3());
+            Lessons.Add(4, Lesson4);
+
 
 
             string s = "";
